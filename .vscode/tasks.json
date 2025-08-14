@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Gateway",
+			"type": "shell",
+			"command": "cd GateWay && dotnet run"
+		},
+		{
+			"label": "Run ProductService",
+			"type": "shell",
+			"command": "cd ProductService && dotnet run"
+		},
+		{
+			"label": "Run IdentityService",
+			"type": "shell",
+			"command": "cd IdentityService && dotnet run"
+		}
+	]
+}

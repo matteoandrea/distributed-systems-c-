@@ -1,0 +1,29 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:5003"
+    },
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/identity/{everything}",
+            "DownstreamPathTemplate": "/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5136
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/products/{everything}",
+            "DownstreamPathTemplate": "/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5091
+                }
+            ]
+        }
+    ]
+}
