@@ -101,3 +101,7 @@
 /home/sly/projects/distributed-systems/GateWay/obj/Debug/net9.0/GateWay.pdb
 /home/sly/projects/distributed-systems/GateWay/obj/Debug/net9.0/GateWay.genruntimeconfig.cache
 /home/sly/projects/distributed-systems/GateWay/obj/Debug/net9.0/ref/GateWay.dll
+/home/sly/projects/distributed-systems/GateWay/obj/Debug/net9.0/GateWay.sourcelink.json
+/home/sly/projects/distributed-systems/GateWay/bin/Debug/net9.0/Microsoft.Identity.Abstractions.dll
+/home/sly/projects/distributed-systems/GateWay/bin/Debug/net9.0/Shared.Auth.dll
+/home/sly/projects/distributed-systems/GateWay/bin/Debug/net9.0/Shared.Auth.pdb

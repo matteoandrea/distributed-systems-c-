@@ -84,3 +84,15 @@
 /home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Scalar.AspNetCore.dll
 /home/sly/projects/distributed-systems/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cs
+/home/sly/projects/distributed-systems/ProductService/obj/Debug/net9.0/ProductService.sourcelink.json
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.Identity.Abstractions.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Shared.Auth.dll
+/home/sly/projects/distributed-systems/ProductService/bin/Debug/net9.0/Shared.Auth.pdb

@@ -1,0 +1,13 @@
+/home/sly/projects/distributed-systems/Shared.Auth/bin/Debug/net9.0/Shared.Auth.deps.json
+/home/sly/projects/distributed-systems/Shared.Auth/bin/Debug/net9.0/Shared.Auth.dll
+/home/sly/projects/distributed-systems/Shared.Auth/bin/Debug/net9.0/Shared.Auth.pdb
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.csproj.AssemblyReference.cache
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.GeneratedMSBuildEditorConfig.editorconfig
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.AssemblyInfoInputs.cache
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.AssemblyInfo.cs
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.csproj.CoreCompileInputs.cache
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.sourcelink.json
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.dll
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/refint/Shared.Auth.dll
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/Shared.Auth.pdb
+/home/sly/projects/distributed-systems/Shared.Auth/obj/Debug/net9.0/ref/Shared.Auth.dll

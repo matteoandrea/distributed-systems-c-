@@ -9,8 +9,14 @@
   <ItemGroup>
     <PackageReference Include="HotChocolate.AspNetCore" Version="15.1.8" />
     <PackageReference Include="HotChocolate.Data.EntityFramework" Version="15.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
     <PackageReference Include="Scalar.AspNetCore" Version="2.6.9" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared.Auth\Shared.Auth.csproj" />
   </ItemGroup>
 
 </Project>

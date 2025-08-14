@@ -1,15 +1,15 @@
 using IdentityService.Data;
 using IdentityService.Endpoints;
 using IdentityService.Extensions;
-using Microsoft.AspNetCore.Identity;
 using Scalar.AspNetCore;
+using Shared.Auth.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
     .AddDatabaseConfiguration(builder.Configuration)
     .AddIdentityConfiguration()
-    .AddJwtAuthentication(builder.Configuration)
+    .AddJwtAuth(builder.Configuration)
     .AddApplicationServices();
 
 var app = builder.Build();

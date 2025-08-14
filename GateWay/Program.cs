@@ -1,5 +1,9 @@
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Shared.Auth.Extensions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,36 +12,13 @@ builder.Configuration
     .SetBasePath(builder.Environment.ContentRootPath)
     .AddOcelot();
 
-builder.Services
-    .AddOcelot(builder.Configuration);
-
-
-// builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//     .AddJwtBearer(options =>
-//     {
-//         options.TokenValidationParameters = new TokenValidationParameters
-//         {
-//             ValidateIssuer = true,
-//             ValidateAudience = true,
-//             ValidateLifetime = true,
-//             ValidateIssuerSigningKey = true,
-//             ValidIssuer = builder.Configuration["Jwt:Issuer"],
-//             ValidAudience = builder.Configuration["Jwt:Audience"],
-//             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-//         };
-//     });
-
-// builder.Services
-//     .AddGraphQLServer()
-//     .AddAuthorization()
-//     .AddQueryType<Query>();
+builder.Services.AddOcelot(builder.Configuration);
+builder.Services.AddJwtAuth(builder.Configuration);
 
 var app = builder.Build();
 
+app.UseAuthentication();
+app.UseAuthorization();
+
 await app.UseOcelot();
-// app.UseAuthentication();
-// app.UseAuthorization();
-
-// app.MapGraphQL();
-
 app.Run();

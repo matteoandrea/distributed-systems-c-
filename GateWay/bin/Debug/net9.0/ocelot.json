@@ -23,7 +23,11 @@
                     "Host": "localhost",
                     "Port": 5091
                 }
-            ]
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "JwtBearer",
+                "AllowedScopes": []
+            }
         }
     ]
 }

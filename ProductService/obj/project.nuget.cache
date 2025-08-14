@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T1tjPF2GqDY=",
+  "dgSpecHash": "qVcJ1eDWjys=",
   "success": true,
   "projectFilePath": "/home/sly/projects/distributed-systems/ProductService/ProductService.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "/home/sly/.nuget/packages/hotchocolate.utilities/15.1.8/hotchocolate.utilities.15.1.8.nupkg.sha512",
     "/home/sly/.nuget/packages/hotchocolate.utilities.dependencyinjection/15.1.8/hotchocolate.utilities.dependencyinjection.15.1.8.nupkg.sha512",
     "/home/sly/.nuget/packages/hotchocolate.validation/15.1.8/hotchocolate.validation.15.1.8.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.8/microsoft.aspnetcore.authentication.jwtbearer.9.0.8.nupkg.sha512",
     "/home/sly/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
     "/home/sly/.nuget/packages/microsoft.entityframeworkcore/9.0.2/microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "/home/sly/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.2/microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
@@ -56,8 +57,16 @@
     "/home/sly/.nuget/packages/microsoft.extensions.objectpool/9.0.2/microsoft.extensions.objectpool.9.0.2.nupkg.sha512",
     "/home/sly/.nuget/packages/microsoft.extensions.options/9.0.2/microsoft.extensions.options.9.0.2.nupkg.sha512",
     "/home/sly/.nuget/packages/microsoft.extensions.primitives/9.0.2/microsoft.extensions.primitives.9.0.2.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.identity.abstractions/9.3.0/microsoft.identity.abstractions.9.3.0.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.identitymodel.abstractions/8.13.1/microsoft.identitymodel.abstractions.8.13.1.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.13.1/microsoft.identitymodel.jsonwebtokens.8.13.1.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.identitymodel.logging/8.13.1/microsoft.identitymodel.logging.8.13.1.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "/home/sly/.nuget/packages/microsoft.identitymodel.tokens/8.13.1/microsoft.identitymodel.tokens.8.13.1.nupkg.sha512",
     "/home/sly/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/home/sly/.nuget/packages/scalar.aspnetcore/2.6.9/scalar.aspnetcore.2.6.9.nupkg.sha512",
+    "/home/sly/.nuget/packages/system.identitymodel.tokens.jwt/8.13.1/system.identitymodel.tokens.jwt.8.13.1.nupkg.sha512",
     "/home/sly/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
     "/home/sly/.nuget/packages/system.io.pipelines/9.0.2/system.io.pipelines.9.0.2.nupkg.sha512",
     "/home/sly/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512"

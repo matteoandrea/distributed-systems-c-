@@ -58,7 +58,6 @@ public static class AuthEndpoints
         .WithName("RevokeToken")
         .WithOpenApi();
 
-        // Endpoint protegido para obter informações do usuário atual
         authGroup.MapGet("/me", [Authorize] async (
             ClaimsPrincipal user,
             UserManager<User> userManager)
