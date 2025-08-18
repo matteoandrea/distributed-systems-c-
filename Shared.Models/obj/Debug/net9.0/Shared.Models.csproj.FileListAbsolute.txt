@@ -1,0 +1,13 @@
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.AssemblyInfoInputs.cache
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.AssemblyInfo.cs
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.csproj.CoreCompileInputs.cache
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.sourcelink.json
+/home/sly/projects/distributed-systems/Shared.Models/bin/Debug/net9.0/Shared.Models.deps.json
+/home/sly/projects/distributed-systems/Shared.Models/bin/Debug/net9.0/Shared.Models.dll
+/home/sly/projects/distributed-systems/Shared.Models/bin/Debug/net9.0/Shared.Models.pdb
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.dll
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/refint/Shared.Models.dll
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.pdb
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/ref/Shared.Models.dll
+/home/sly/projects/distributed-systems/Shared.Models/obj/Debug/net9.0/Shared.Models.csproj.AssemblyReference.cache

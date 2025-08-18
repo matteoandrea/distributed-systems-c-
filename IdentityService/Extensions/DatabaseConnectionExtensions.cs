@@ -7,7 +7,7 @@ public static class DatabaseConnectionExtensions
 {
     public static IServiceCollection AddDatabaseConfiguration(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddDbContext<AppDbContext>(opt =>
+        services.AddPooledDbContextFactory<AppDbContext>(opt =>
             opt.UseSqlite(configuration.GetConnectionString("DefaultConnection")));
 
         return services;

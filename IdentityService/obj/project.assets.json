@@ -1368,6 +1368,16 @@
         "runtime": {
           "bin/placeholder/Shared.Auth.dll": {}
         }
+      },
+      "Shared.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Shared.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Models.dll": {}
+        }
       }
     }
   },
@@ -3706,6 +3716,11 @@
       "type": "project",
       "path": "../Shared.Auth/Shared.Auth.csproj",
       "msbuildProject": "../Shared.Auth/Shared.Auth.csproj"
+    },
+    "Shared.Models/1.0.0": {
+      "type": "project",
+      "path": "../Shared.Models/Shared.Models.csproj",
+      "msbuildProject": "../Shared.Models/Shared.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3716,7 +3731,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.8",
       "Scalar.AspNetCore >= 2.6.8",
-      "Shared.Auth >= 1.0.0"
+      "Shared.Auth >= 1.0.0",
+      "Shared.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3747,6 +3763,9 @@
           "projectReferences": {
             "/home/sly/projects/distributed-systems/Shared.Auth/Shared.Auth.csproj": {
               "projectPath": "/home/sly/projects/distributed-systems/Shared.Auth/Shared.Auth.csproj"
+            },
+            "/home/sly/projects/distributed-systems/Shared.Models/Shared.Models.csproj": {
+              "projectPath": "/home/sly/projects/distributed-systems/Shared.Models/Shared.Models.csproj"
             }
           }
         }

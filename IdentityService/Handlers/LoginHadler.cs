@@ -1,9 +1,9 @@
 using IdentityService.Data;
 using IdentityService.Dtos;
-using IdentityService.Handlers.Abstractions;
 using IdentityService.Models;
 using IdentityService.Services;
 using Microsoft.AspNetCore.Identity;
+using Shared.Models;
 
 namespace IdentityService.Handlers;
 

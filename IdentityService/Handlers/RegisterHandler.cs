@@ -1,7 +1,7 @@
 using IdentityService.Dtos;
-using IdentityService.Handlers.Abstractions;
 using IdentityService.Models;
 using Microsoft.AspNetCore.Identity;
+using Shared.Models;
 
 namespace IdentityService.Handlers;
 
